@@ -28,14 +28,14 @@ const container = new StateContainer<number, Increment | Decrement>(0, (state, a
 });
 ```
 
-### Get stat by subscribing to the value
+### Get state by subscribing to the value
 
 ```TS
 // A raw action
 container.value.subscribe(console.log);
 ```
 
-### Update State with a StateResult which is either
+### Update State by passing it a StateResult which is either:
 
 ```TS
 // A raw action
