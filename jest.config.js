@@ -6,6 +6,6 @@ module.exports = {
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   moduleNameMapper: {
-    'drill-di': '<rootDir>/src/public_api.ts'
+    'state-container': '<rootDir>/src/public_api.ts'
   }
 };

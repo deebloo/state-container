@@ -1,5 +1,5 @@
 {
-  "name": "drill-di",
+  "name": "state-container",
   "version": "1.0.0",
   "ngPackage": {
     "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deebloo/drill.git"
+    "url": "git+https://github.com/deebloo/state-container.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/deebloo/drill/issues"
+    "url": "https://github.com/deebloo/state-container/issues"
   },
   "devDependencies": {
     "@angular/compiler": "^7.0.4",
